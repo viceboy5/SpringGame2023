@@ -1,0 +1,3 @@
+[submodule "SpringGame2023/Assets/Scripts/ScriptLibrary"]
+	path = SpringGame2023/Assets/Scripts/ScriptLibrary
+	url = https://github.com/viceboy5/ScriptLibrary
