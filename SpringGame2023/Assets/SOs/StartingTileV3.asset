@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6abfd1176466314ea6cdaf1375f72cc, type: 3}
-  m_Name: TileInstancer
+  m_Script: {fileID: 11500000, guid: 09f2e07c2ee738a4ebcf3c90e292993b, type: 3}
+  m_Name: StartingTileV3
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2036064247672235503, guid: 45b1ee4da6e673f4297a61152e4552d4, type: 3}
-  nextSpawn: {fileID: 11400000, guid: cd482a7401f4d564592d165fbeaa7146, type: 2}
-  spawnIncrement: 3
+  value: {x: 0, y: 0, z: 0}
