@@ -1188,7 +1188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.052437, y: -0, z: -0, w: 0.99862427}
-  m_LocalPosition: {x: 2.0440311, y: 5.776432, z: -9.893111}
+  m_LocalPosition: {x: 0, y: 5.776432, z: -9.893111}
   m_LocalScale: {x: 2.0440311, y: 2.0440311, z: 2.0440311}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1796,8 +1796,8 @@ GameObject:
   - component: {fileID: 1712818389}
   - component: {fileID: 1712818388}
   - component: {fileID: 1712818387}
-  - component: {fileID: 1712818386}
   - component: {fileID: 1712818385}
+  - component: {fileID: 1712818390}
   m_Layer: 0
   m_Name: Carriage?
   m_TagString: Untagged
@@ -1827,7 +1827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712818382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.000061, y: 0.2939453, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2939453, z: 0}
   m_LocalScale: {x: 0.48922932, y: 0.48922932, z: 0.48922932}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1865,7 +1865,7 @@ MonoBehaviour:
   repeatUntilFalseEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1712818386}
+      - m_Target: {fileID: 1712818390}
         m_TargetAssemblyTypeName: VehicleBase, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 1
@@ -1879,22 +1879,6 @@ MonoBehaviour:
         m_CallState: 2
   counterNum: {fileID: 0}
   seconds: 0
---- !u!114 &1712818386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712818382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cafb522c43c345e44939f5355444dc19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  direction: {x: 0, y: 0, z: 5}
 --- !u!54 &1712818387
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1963,6 +1947,22 @@ MonoBehaviour:
   m_DefaultActionMap: Touch
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1712818390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712818382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b9bfc635194c3f47b68662a563f5e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  direction: {x: 0, y: 0, z: 5}
 --- !u!1001 &1759156444
 PrefabInstance:
   m_ObjectHideFlags: 0
