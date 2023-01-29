@@ -18,7 +18,7 @@ public class VehicleBase : MonoBehaviour, IMove, ITrigger
 
     public void Move()
     {
-        rigidbodyObj.transform += direction;
+        rigidbodyObj.velocity = direction;
         print("Moving my Car!");
     }
 
