@@ -19,7 +19,6 @@ public class VehicleBase : MonoBehaviour, IMove, ITrigger
     public void Move()
     {
         rigidbodyObj.velocity = direction;
-        print("Moving my Car!");
     }
 
     public void OnTriggerEnter(Collider other)
