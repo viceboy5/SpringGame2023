@@ -1,0 +1,54 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "28880002-4596-4c57-ae70-cf741c5a29c7",
+            "actions": [
+                {
+                    "name": "SwipeLeft",
+                    "type": "PassThrough",
+                    "id": "975ac7d3-81a2-4bde-a597-13cd895631a3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SwipeRight",
+                    "type": "PassThrough",
+                    "id": "b6c00559-35ad-4f9e-abc5-b89f8e7c8d81",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9d39267-198c-4b35-9905-c200d8dcb798",
+                    "path": "<Touchscreen>/delta/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21898863-a6d4-4190-81eb-bf4361d25a53",
+                    "path": "<Touchscreen>/delta/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

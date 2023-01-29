@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: fab85704692960c4ca483300298497e5,
+  m_Actions: {fileID: -944628639613478452, guid: c76e219066776184ba12d5d630dbba95,
     type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
@@ -1935,16 +1935,28 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 51a6ba97-053d-4db6-a6c7-06c2dc4ea5e8
-    m_ActionName: Touch/PrimaryContact
+      m_Calls:
+      - m_Target: {fileID: 1712818390}
+        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
+        m_MethodName: JumpLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 975ac7d3-81a2-4bde-a597-13cd895631a3
+    m_ActionName: New action map/SwipeLeft
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 5a289681-5c4b-4c93-9570-89d919e11ac5
-    m_ActionName: Touch/PrimaryPosition
+    m_ActionId: b6c00559-35ad-4f9e-abc5-b89f8e7c8d81
+    m_ActionName: New action map/SwipeRight
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Touch
+  m_DefaultActionMap: New action map
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &1712818390
