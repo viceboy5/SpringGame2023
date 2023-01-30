@@ -1923,7 +1923,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   direction: {x: 0, y: 0, z: 5}
-  stroller: {fileID: 0}
+  stroller: {fileID: 1712818382}
 --- !u!1001 &1759156444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2085,7 +2085,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1712818390}
         m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: JumpLeft
+        m_MethodName: MoveLeft
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
