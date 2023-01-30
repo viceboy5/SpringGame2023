@@ -23,6 +23,15 @@ public class StrollerControllerBehaviour : VehicleBase
             leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
             stroller.transform.position = leftPosition;
         }
-        
+    }
+
+    public void MoveRight()
+    {
+        Debug.Log("Swipe Detected");
+        if (stroller.transform.position.x < 1)
+        {
+            rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
+            stroller.transform.position = rightPosition;
+        }
     }
 }
