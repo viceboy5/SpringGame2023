@@ -1,12 +1,23 @@
+using System;
 using UnityEngine;
 
 public class StrollerControllerBehaviour : VehicleBase
 {
-    private Transform transformObj;
+    public GameObject stroller;
+    private Vector3 leftPosition;
+    private Vector3 rightPosition;
+    private Vector3 centerPosition;
 
-    public void JumpLeft()
+    private void Start()
+    {
+        leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
+        rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
+        
+    }
+
+    public void MoveLeft()
     {
         Debug.Log("Swipe Detected");
-        transform.position.Set(-1, transformObj.position.y, transformObj.position.z);
+        stroller.transform.position = leftPosition;
     }
 }
