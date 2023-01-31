@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class GetKeyDown : MonoBehaviour
 {
-    public UnityEvent pressedLeft, pressedRight;
+    public UnityEvent pressedLeft, pressedRight, pressedUp;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -16,6 +14,11 @@ public class GetKeyDown : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             pressedRight.Invoke();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            pressedUp.Invoke();
         }
     }
 }
