@@ -1,13 +1,28 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class StrollerControllerBehaviour : VehicleBase
+[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(Rigidbody))]
+
+
+public class StrollerControllerBehaviour : MonoBehaviour
 {
     public GameObject stroller;
+    public UnityEvent triggerEnterEvent;
+    private Rigidbody rigidbodyObj;
+    
+    public Vector3 direction;
     private Vector3 leftPosition;
     private Vector3 rightPosition;
     private Vector3 centerPosition;
 
+    private void Awake()
+    {
+        GetComponent<BoxCollider>().isTrigger = true;
+        rigidbodyObj = GetComponent<Rigidbody>();
+    }
+    
     private void Start()
     {
         leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
@@ -33,5 +48,15 @@ public class StrollerControllerBehaviour : VehicleBase
             rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
             stroller.transform.position = rightPosition;
         }
+    }
+    
+    public void Move()
+    {
+        rigidbodyObj.velocity = direction;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        triggerEnterEvent.Invoke();
     }
 }
