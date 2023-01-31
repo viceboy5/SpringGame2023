@@ -58,7 +58,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     
     public void Move()
     {
-        rigidbodyObj.velocity = direction;
+        
     }
 
     public void OnTriggerEnter(Collider other)
