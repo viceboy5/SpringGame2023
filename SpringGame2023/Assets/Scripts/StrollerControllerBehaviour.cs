@@ -12,10 +12,10 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public UnityEvent triggerEnterEvent;
     private Rigidbody rigidbodyObj;
     
-    public Vector3 direction;
     private Vector3 leftPosition;
     private Vector3 rightPosition;
     private Vector3 centerPosition;
+    public float speed;
 
     private void Awake()
     {
@@ -58,7 +58,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     
     public void Move()
     {
-        
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
     public void OnTriggerEnter(Collider other)

@@ -2201,7 +2201,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1712818390}
-        m_TargetAssemblyTypeName: VehicleBase, Assembly-CSharp
+        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 1
         m_Arguments:
@@ -2222,7 +2222,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712818382}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.3
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
-  direction: {x: 0, y: 0, z: 5}
+  speed: 2
 --- !u!1001 &1759156444
 PrefabInstance:
   m_ObjectHideFlags: 0
