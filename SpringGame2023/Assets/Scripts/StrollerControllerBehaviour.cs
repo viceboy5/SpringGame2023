@@ -19,7 +19,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        GetComponent<BoxCollider>().isTrigger = true;
+        GetComponent<BoxCollider>().isTrigger = false;
         rigidbodyObj = GetComponent<Rigidbody>();
     }
     
@@ -48,6 +48,12 @@ public class StrollerControllerBehaviour : MonoBehaviour
             rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
             stroller.transform.position = rightPosition;
         }
+    }
+
+    public void Jump()
+    {
+        Debug.Log("Swipe Detected");
+        rigidbodyObj.AddForce(0,100,0);
     }
     
     public void Move()
