@@ -1846,6 +1846,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   speed: 3
+  height: 120
 --- !u!1 &1792320605
 GameObject:
   m_ObjectHideFlags: 0
