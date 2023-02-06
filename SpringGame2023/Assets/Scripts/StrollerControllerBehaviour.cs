@@ -16,6 +16,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     private Vector3 rightPosition;
     private Vector3 centerPosition;
     public float speed;
+    public float height;
 
     private void Awake()
     {
@@ -53,7 +54,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public void Jump()
     {
         Debug.Log("Swipe Detected");
-        rigidbodyObj.AddForce(0,100,0);
+        rigidbodyObj.AddForce(0,height,0);
     }
     
     public void Move()
