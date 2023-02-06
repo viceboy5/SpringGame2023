@@ -1141,7 +1141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.3190483, y: -0, z: -0, w: 0.94773847}
-  m_LocalPosition: {x: 0, y: 3.85, z: -2.87}
+  m_LocalPosition: {x: 0, y: 5.41, z: -3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1157,10 +1157,10 @@ PositionConstraint:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 3.85, z: -2.87}
-  m_TranslationOffset: {x: 0, y: 3.5560546, z: -2.87}
+  m_TranslationAtRest: {x: 0, y: 5.41, z: -3.2}
+  m_TranslationOffset: {x: 0, y: 5.06536, z: -3.2}
   m_AffectTranslationX: 0
-  m_AffectTranslationY: 1
+  m_AffectTranslationY: 0
   m_AffectTranslationZ: 1
   m_IsContraintActive: 1
   m_IsLocked: 1
@@ -1749,8 +1749,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712818382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2939453, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.34464, z: 0}
+  m_LocalScale: {x: 0.363, y: 0.363, z: 0.363}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 670665818}
@@ -1846,7 +1846,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   speed: 3
-  height: 120
+  height: 100
 --- !u!1 &1792320605
 GameObject:
   m_ObjectHideFlags: 0
