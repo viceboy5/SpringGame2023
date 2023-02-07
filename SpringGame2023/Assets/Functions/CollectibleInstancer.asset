@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6abfd1176466314ea6cdaf1375f72cc, type: 3}
   m_Name: CollectibleInstancer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  nextSpawn: {fileID: 0}
-  spawnIncrement: 0
+  prefab: {fileID: 5708282148550564043, guid: 4c4727abf4f57db4089ad388216dee58, type: 3}
+  nextSpawn: {fileID: 11400000, guid: d7c7cba432ab8ad4396dd33acb19fc4b, type: 2}
+  spawnIncrement: 15
