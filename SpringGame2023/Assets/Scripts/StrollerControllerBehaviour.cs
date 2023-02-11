@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +16,10 @@ public class StrollerControllerBehaviour : MonoBehaviour
     private Vector3 leftPosition;
     private Vector3 rightPosition;
     private Vector3 centerPosition;
+    
+    private bool canJump = true;
+    private WaitForSeconds wfsObj;
+    public float seconds;
     public float speed;
     public float height;
 
@@ -54,12 +59,25 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public void Jump()
     {
         Debug.Log("Swipe Detected");
-        rigidbodyObj.AddForce(0,height,0);
+        if (canJump)
+        {
+            rigidbodyObj.AddForce(0, height, 0);
+            StartCoroutine(WaitForSeconds());
+        }
     }
     
     public void Move()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
+    }
+
+    private IEnumerator WaitForSeconds()
+    {
+        Debug.Log("Waiting to Jump");
+        wfsObj = new WaitForSeconds(seconds);
+        canJump = false;
+        yield return wfsObj;
+        canJump = true;
     }
 
     public void OnTriggerEnter(Collider other)
