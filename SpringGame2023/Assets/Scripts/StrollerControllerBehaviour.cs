@@ -71,6 +71,11 @@ public class StrollerControllerBehaviour : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 
+    public void ChangeSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
     private IEnumerator WaitForSeconds()
     {
         Debug.Log("Waiting to Jump");
