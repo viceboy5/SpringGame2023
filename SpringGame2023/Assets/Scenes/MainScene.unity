@@ -1606,6 +1606,7 @@ GameObject:
   - component: {fileID: 1641842674}
   - component: {fileID: 1641842676}
   - component: {fileID: 1641842675}
+  - component: {fileID: 1641842677}
   m_Layer: 5
   m_Name: CoinsText
   m_TagString: Untagged
@@ -1730,6 +1731,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641842673}
   m_CullTransparentMesh: 1
+--- !u!114 &1641842677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641842673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 1ba611a189cb05246890806bc7b790fb, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 66eee36b52a3a4a43aaefea075961112, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 66eee36b52a3a4a43aaefea075961112, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: DisplayNumber
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1641842675}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1680359735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,6 +1875,7 @@ GameObject:
   - component: {fileID: 1712818385}
   - component: {fileID: 1712818390}
   - component: {fileID: 1712818391}
+  - component: {fileID: 1712818392}
   m_Layer: 0
   m_Name: Carriage?
   m_TagString: Untagged
@@ -1996,6 +2038,34 @@ MonoBehaviour:
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1712818392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712818382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 225ee11c355d2ed4c98493139b4befaa, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1712818390}
+        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
+        m_MethodName: ChangeSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1792320605
 GameObject:
   m_ObjectHideFlags: 0
