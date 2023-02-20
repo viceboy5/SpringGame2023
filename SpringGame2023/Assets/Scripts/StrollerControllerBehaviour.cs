@@ -76,6 +76,11 @@ public class StrollerControllerBehaviour : MonoBehaviour
         speed = newSpeed;
     }
 
+    public void ResetPosition(Vector3Data startPos)
+    {
+        stroller.transform.position = startPos.value;
+    }
+
     private IEnumerator WaitForSeconds()
     {
         Debug.Log("Waiting to Jump");
