@@ -14,7 +14,6 @@ public class PoolingBehaviour : MonoBehaviour
     private WaitForSeconds wfsObj;
     private int i;
     public bool canRun = true;
-    public float holdTime;
 
     private void Awake()
     {
