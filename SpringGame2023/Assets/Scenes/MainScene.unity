@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 343613027}
   - component: {fileID: 343613026}
   - component: {fileID: 343613025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 647663092}
   - component: {fileID: 647663091}
   - component: {fileID: 647663090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 748422870}
   - component: {fileID: 748422869}
   - component: {fileID: 748422868}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 1009819116}
   - component: {fileID: 1009819115}
   - component: {fileID: 1009819114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 1121520294}
   - component: {fileID: 1121520293}
   - component: {fileID: 1121520292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1975,7 +1975,7 @@ GameObject:
   - component: {fileID: 1712818392}
   - component: {fileID: 1712818394}
   - component: {fileID: 1712818393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Carriage?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2236,7 +2236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1792320606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Baby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2345,8 +2345,8 @@ GameObject:
   - component: {fileID: 1911504257}
   - component: {fileID: 1911504256}
   - component: {fileID: 1911504261}
-  m_Layer: 0
-  m_Name: TileDestroyer
+  m_Layer: 9
+  m_Name: Destroyer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2463,20 +2463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2036064247672235503, guid: 45b1ee4da6e673f4297a61152e4552d4,
-          type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1934780296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,7 +2476,7 @@ GameObject:
   - component: {fileID: 1934780299}
   - component: {fileID: 1934780298}
   - component: {fileID: 1934780297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2586,7 +2573,7 @@ GameObject:
   - component: {fileID: 1962236244}
   - component: {fileID: 1962236243}
   - component: {fileID: 1962236242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2683,7 +2670,7 @@ GameObject:
   - component: {fileID: 2021353381}
   - component: {fileID: 2021353380}
   - component: {fileID: 2021353379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2914,7 +2901,7 @@ GameObject:
   - component: {fileID: 2051812892}
   - component: {fileID: 2051812895}
   - component: {fileID: 2051812894}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BabyModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3138,7 +3125,7 @@ GameObject:
   - component: {fileID: 3485429908498342985}
   - component: {fileID: 4971376173711468186}
   - component: {fileID: 6941681077895280684}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3158,7 +3145,7 @@ GameObject:
   - component: {fileID: 3485429908802034730}
   - component: {fileID: 4971376173408034553}
   - component: {fileID: 6941681078126346313}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3178,7 +3165,7 @@ GameObject:
   - component: {fileID: 3485429909239565355}
   - component: {fileID: 4971376174044696312}
   - component: {fileID: 6941681077422411850}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3198,7 +3185,7 @@ GameObject:
   - component: {fileID: 3485429909603973321}
   - component: {fileID: 4971376172589791770}
   - component: {fileID: 6941681076772807852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3218,7 +3205,7 @@ GameObject:
   - component: {fileID: 3485429909642187180}
   - component: {fileID: 4971376172568400767}
   - component: {fileID: 6941681076751420879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3238,7 +3225,7 @@ GameObject:
   - component: {fileID: 3485429909907508069}
   - component: {fileID: 4971376172303010230}
   - component: {fileID: 6941681077020808968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3258,7 +3245,7 @@ GameObject:
   - component: {fileID: 3485429910192773666}
   - component: {fileID: 4971376173091559665}
   - component: {fileID: 6941681076165183041}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3622,7 +3609,7 @@ GameObject:
   - component: {fileID: 2103212195216578199}
   - component: {fileID: 7607494677991658564}
   - component: {fileID: 7607494677991658565}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: StartTile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
