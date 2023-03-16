@@ -1198,7 +1198,7 @@ MonoBehaviour:
         m_CallState: 2
   seconds: 0.75
   canRun: 1
-  holdTime: 6
+  holdTime: 5.25
 --- !u!4 &1273911825
 Transform:
   m_ObjectHideFlags: 0
@@ -2085,7 +2085,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   seconds: 1.35
-  speed: 3
+  speed: 3.5
   height: 100
 --- !u!114 &1712818391
 MonoBehaviour:
