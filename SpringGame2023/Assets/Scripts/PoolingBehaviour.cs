@@ -14,12 +14,12 @@ public class PoolingBehaviour : MonoBehaviour
     private WaitForSeconds wfsObj;
     private int i;
     public bool canRun = true;
-    public float holdTime = 3f;
+    public float holdTime;
 
     private void Awake()
     {
         awakeEvent.Invoke();
-        wfsObj = new WaitForSeconds(holdTime);
+        wfsObj = new WaitForSeconds(seconds * (poolList.Count-1));
     }
 
     IEnumerator Start()
