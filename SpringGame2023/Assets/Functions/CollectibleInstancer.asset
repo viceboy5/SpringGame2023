@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5708282148550564043, guid: 4c4727abf4f57db4089ad388216dee58, type: 3}
   nextSpawn: {fileID: 11400000, guid: d7c7cba432ab8ad4396dd33acb19fc4b, type: 2}
-  spawnIncrement: 15
+  spawnIncrement: 12
