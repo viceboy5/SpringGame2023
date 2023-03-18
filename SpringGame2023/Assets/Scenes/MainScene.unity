@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614563a310be147a84abe99fedad0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!4 &265308264
 Transform:
   m_ObjectHideFlags: 0
@@ -1757,7 +1758,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555850909}
-  - component: {fileID: 1555850908}
   m_Layer: 0
   m_Name: Touch
   m_TagString: Untagged
@@ -1765,18 +1765,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1555850908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555850907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d88ae01a3fc94841929834e328cb9d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1555850909
 Transform:
   m_ObjectHideFlags: 0
