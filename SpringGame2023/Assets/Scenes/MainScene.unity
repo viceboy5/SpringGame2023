@@ -994,7 +994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2300}
+  m_AnchoredPosition: {x: 0, y: 2919}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785171486
@@ -1796,6 +1796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1273911825}
   - component: {fileID: 1273911824}
+  - component: {fileID: 1273911826}
   m_Layer: 0
   m_Name: TilePool
   m_TagString: Untagged
@@ -1886,6 +1887,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273911826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273911823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 225ee11c355d2ed4c98493139b4befaa, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1273911824}
+        m_TargetAssemblyTypeName: PoolingBehaviour, Assembly-CSharp
+        m_MethodName: set_CanRun
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1279130113
 GameObject:
   m_ObjectHideFlags: 0
@@ -3202,20 +3231,7 @@ MonoBehaviour:
   gameActionObj: {fileID: 11400000, guid: 26a12c19353cfcc44a3cd84ebbc15351, type: 2}
   onRaiseEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1712818390}
-        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: ResetPosition
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: b2b14e91fbec94d418b373630596fbeb,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1773458247
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,7 +3456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

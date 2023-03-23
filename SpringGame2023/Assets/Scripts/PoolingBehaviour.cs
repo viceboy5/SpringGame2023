@@ -39,4 +39,11 @@ public class PoolingBehaviour : MonoBehaviour
             }
         }
     }
+    
+    public bool CanRun 
+    { 
+        get => canRun;
+        set => canRun = value; 
+    
+    }
 }
