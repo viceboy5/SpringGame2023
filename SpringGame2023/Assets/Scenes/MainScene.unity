@@ -1610,7 +1610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 721661810}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6bca0b75b1f411d45a8f9161b69e32db, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &721661810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1661,6 +1673,7 @@ GameObject:
   - component: {fileID: 785171488}
   - component: {fileID: 785171487}
   - component: {fileID: 785171486}
+  - component: {fileID: 785171489}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -1783,6 +1796,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785171484}
   m_CullTransparentMesh: 1
+--- !u!114 &785171489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785171484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 6bca0b75b1f411d45a8f9161b69e32db, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &787083161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +3137,7 @@ GameObject:
   - component: {fileID: 1349433559}
   - component: {fileID: 1349433563}
   - component: {fileID: 1349433564}
+  - component: {fileID: 1349433565}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3239,6 +3281,34 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: GameOver
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1349433565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349433558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 6bca0b75b1f411d45a8f9161b69e32db, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1349433563}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Pause
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1363386286
@@ -3873,6 +3943,7 @@ GameObject:
   - component: {fileID: 1712818391}
   - component: {fileID: 1712818395}
   - component: {fileID: 1712818392}
+  - component: {fileID: 1712818396}
   - component: {fileID: 1712818394}
   - component: {fileID: 1712818393}
   m_Layer: 7
@@ -4114,6 +4185,34 @@ MonoBehaviour:
   onRaiseEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1712818396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712818382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 6bca0b75b1f411d45a8f9161b69e32db, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1712818390}
+        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
+        m_MethodName: ChangeSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1773458247
 GameObject:
   m_ObjectHideFlags: 0
