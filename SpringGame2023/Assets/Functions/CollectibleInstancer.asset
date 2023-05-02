@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: CollectibleInstancer
   m_EditorClassIdentifier: 
   prefab: {fileID: 5708282148550564043, guid: 4c4727abf4f57db4089ad388216dee58, type: 3}
+  prefabList:
+  - {fileID: 919132149155446097, guid: ad27890bcf4632643bcd4c2cdf6b381b, type: 3}
+  - {fileID: 919132149155446097, guid: 2b54d271490bce34e93a6dda3ed4f26c, type: 3}
+  - {fileID: 919132149155446097, guid: 07e32a37c87cc9047bed332b12571295, type: 3}
+  - {fileID: 919132149155446097, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+  - {fileID: 919132149155446097, guid: 065ca182f381aa54e92813f0a02ea737, type: 3}
+  - {fileID: 919132149155446097, guid: 990fb4864f2339245814fded5dc180c6, type: 3}
   nextSpawn: {fileID: 11400000, guid: d7c7cba432ab8ad4396dd33acb19fc4b, type: 2}
   spawnIncrement: 12

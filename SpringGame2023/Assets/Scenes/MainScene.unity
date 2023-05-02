@@ -3102,7 +3102,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 9221a7bebd591ff41aa8f39c2818c037, type: 2}
         m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
-        m_MethodName: CreateInstanceIncrementListRandomly
+        m_MethodName: CreateInstanceListRandomV3RandomPrefab
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: c3b5266cfdf71af47a815aea10ea3896,
