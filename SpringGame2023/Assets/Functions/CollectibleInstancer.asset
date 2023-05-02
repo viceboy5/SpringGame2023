@@ -20,5 +20,6 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
   - {fileID: 919132149155446097, guid: 065ca182f381aa54e92813f0a02ea737, type: 3}
   - {fileID: 919132149155446097, guid: 990fb4864f2339245814fded5dc180c6, type: 3}
+  - {fileID: 919132149155446097, guid: 6cd6b0aa7fbb3564c8a97dd0cc1b2ab3, type: 3}
   nextSpawn: {fileID: 11400000, guid: d7c7cba432ab8ad4396dd33acb19fc4b, type: 2}
   spawnIncrement: 12
