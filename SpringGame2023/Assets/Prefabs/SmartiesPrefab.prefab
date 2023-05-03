@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5722600245605153652}
   - component: {fileID: 1234318704554064121}
   - component: {fileID: 5743422660676505291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 401398389179628963}
   - component: {fileID: 8014864437434851608}
   - component: {fileID: 2124911606809280833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 2707595033684794589}
   - component: {fileID: 5039715573436241431}
   - component: {fileID: 5071311837573442160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,8 +258,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1611079650152220254}
-  m_Layer: 0
-  m_Name: Smarties
+  - component: {fileID: -8881624620877011610}
+  - component: {fileID: -7395698064121303140}
+  - component: {fileID: -179950942861829291}
+  m_Layer: 6
+  m_Name: SmartiesPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,6 +298,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8881624620877011610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094284651758574820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2266665fa556143b76084c332e8d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 20.5
+--- !u!114 &-7395698064121303140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094284651758574820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76e1208b25b23f4dab7658d24116907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0409398714f64354392aa7cc49bc55ff, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 1ba611a189cb05246890806bc7b790fb, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: RaiseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 0409398714f64354392aa7cc49bc55ff, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: Save
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2094284651758574820}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &-179950942861829291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094284651758574820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3542387333836596723
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +398,7 @@ GameObject:
   - component: {fileID: 6659203228802976997}
   - component: {fileID: 8177061628943644594}
   - component: {fileID: 580624732513027814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +481,7 @@ GameObject:
   - component: {fileID: 6510381022106765748}
   - component: {fileID: 3149112777542489627}
   - component: {fileID: 8658445162001031913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +564,7 @@ GameObject:
   - component: {fileID: 5639819576165671277}
   - component: {fileID: 8113392747106258278}
   - component: {fileID: 3142325764528257951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +647,7 @@ GameObject:
   - component: {fileID: 5748768397700081483}
   - component: {fileID: 3106373461658480564}
   - component: {fileID: 8323718049994987210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wrapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +730,7 @@ GameObject:
   - component: {fileID: 8790729134864328}
   - component: {fileID: 7572801863092192407}
   - component: {fileID: 6131442436434432864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +813,7 @@ GameObject:
   - component: {fileID: 3672806729074883356}
   - component: {fileID: 8010989866856204048}
   - component: {fileID: 6579052959361078593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,7 +896,7 @@ GameObject:
   - component: {fileID: 3977945075310141876}
   - component: {fileID: 1398679725850148482}
   - component: {fileID: 1066876266500395238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -887,7 +979,7 @@ GameObject:
   - component: {fileID: 5750971273687661965}
   - component: {fileID: 2742551379501152558}
   - component: {fileID: 1057924698678138785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +1062,7 @@ GameObject:
   - component: {fileID: 4873869104208349857}
   - component: {fileID: 1427182382784353029}
   - component: {fileID: 6797367356061575635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1145,7 @@ GameObject:
   - component: {fileID: 24238513312923002}
   - component: {fileID: 6966128463823800973}
   - component: {fileID: 7083406622616990473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1228,7 @@ GameObject:
   - component: {fileID: 7851845008781829082}
   - component: {fileID: 2084599364697134919}
   - component: {fileID: 2922407944835647175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,7 +1311,7 @@ GameObject:
   - component: {fileID: 3843926108521906695}
   - component: {fileID: 1575321181450452856}
   - component: {fileID: 150790831768889921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Smarty9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
