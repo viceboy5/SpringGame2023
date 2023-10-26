@@ -17,11 +17,9 @@ public class StrollerControllerBehaviour : MonoBehaviour
     private Vector3 rightPosition;
     private Vector3 centerPosition;
     
-    private bool canJump = true;
-    private WaitForSeconds wfsObj;
-    public float seconds;
     public float speed;
     public float height;
+    public float groundedDist;
 
     private void Awake()
     {
@@ -38,7 +36,6 @@ public class StrollerControllerBehaviour : MonoBehaviour
 
     public void MoveLeft()
     {
-        Debug.Log("Swipe Detected");
         if (stroller.transform.position.x > -1)
         {
             leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
@@ -48,7 +45,6 @@ public class StrollerControllerBehaviour : MonoBehaviour
 
     public void MoveRight()
     {
-        Debug.Log("Swipe Detected");
         if (stroller.transform.position.x < 1)
         {
             rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
@@ -58,11 +54,9 @@ public class StrollerControllerBehaviour : MonoBehaviour
 
     public void Jump()
     {
-        Debug.Log("Swipe Detected");
-        if (canJump)
+        if (IsGrounded())
         {
             rigidbodyObj.AddForce(0, height, 0);
-            StartCoroutine(WaitForSeconds());
         }
     }
     
@@ -81,14 +75,12 @@ public class StrollerControllerBehaviour : MonoBehaviour
         stroller.transform.position = startPos.value;
     }
 
-    private IEnumerator WaitForSeconds()
+    private bool IsGrounded()
     {
-        Debug.Log("Waiting to Jump");
-        wfsObj = new WaitForSeconds(seconds);
-        canJump = false;
-        yield return wfsObj;
-        canJump = true;
+        RaycastHit hit;
+        return Physics.Raycast(transform.position, Vector3.down, out hit, groundedDist);
     }
+    
 
     public void OnTriggerEnter(Collider other)
     {
