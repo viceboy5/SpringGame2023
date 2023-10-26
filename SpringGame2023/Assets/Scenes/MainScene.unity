@@ -1538,7 +1538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &546683413
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2881,7 +2881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &949213865
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4536,37 +4536,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495224658}
   m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
---- !u!1 &1555850907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1555850909}
-  m_Layer: 0
-  m_Name: Touch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1555850909
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555850907}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.34790158, y: -3.5113068, z: 5.3490086}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1571348702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5322,7 +5291,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1712818382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3509d8ee9178de34481fc2f9cf202302, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bc72d7e6b4eda946b1f5df0b6cf9106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   force: 10
@@ -5383,10 +5352,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1712818382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc1e7030f6867349b77fa538be6d29c, type: 3}
+  m_Script: {fileID: 11500000, guid: b2a5f1f2a926af649a3ca91b84da00ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controls: {fileID: 11400000, guid: 9e9f0d6a3404a034e8ae1b256ebf39a7, type: 2}
+  controls: {fileID: 11400000, guid: 7ce3426a8af078c49a44094c02f922d0, type: 2}
   minimumDistance: 0.02
   maximumTime: 1
 --- !u!1 &1773458247
@@ -5407,7 +5376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1773458248
 RectTransform:
   m_ObjectHideFlags: 0
