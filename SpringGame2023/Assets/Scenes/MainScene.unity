@@ -5124,9 +5124,9 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
-  seconds: 1.35
   speed: 3.5
   height: 100
+  groundedDist: 0.3
 --- !u!114 &1712818391
 MonoBehaviour:
   m_ObjectHideFlags: 0
