@@ -5199,7 +5199,7 @@ MonoBehaviour:
   speed: {fileID: 11400000, guid: 32fd2b97bb82b834a8cf6078291a0e54, type: 2}
   checkpointDist: {fileID: 11400000, guid: de79b8fcc1d490d45b30ce4bc857dc52, type: 2}
   jumpHeight: 100
-  diveForce: -80
+  diveForce: -100
   groundedDist: 0.3
 --- !u!114 &1712818391
 MonoBehaviour:
