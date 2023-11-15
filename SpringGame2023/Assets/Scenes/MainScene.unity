@@ -5067,7 +5067,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1712818390}
         m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: Move
+        m_MethodName: MoveForward
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5120,12 +5120,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9bfc635194c3f47b68662a563f5e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stroller: {fileID: 1712818382}
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
-  speed: 3.5
-  height: 100
+  checkpointEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 32fd2b97bb82b834a8cf6078291a0e54, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: de79b8fcc1d490d45b30ce4bc857dc52, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 10
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  speed: {fileID: 11400000, guid: 32fd2b97bb82b834a8cf6078291a0e54, type: 2}
+  checkpointDist: {fileID: 11400000, guid: de79b8fcc1d490d45b30ce4bc857dc52, type: 2}
+  jumpHeight: 100
   groundedDist: 0.3
 --- !u!114 &1712818391
 MonoBehaviour:

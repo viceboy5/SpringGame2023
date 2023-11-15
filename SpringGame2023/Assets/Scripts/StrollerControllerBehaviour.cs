@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,46 +8,58 @@ using UnityEngine.Events;
 
 public class StrollerControllerBehaviour : MonoBehaviour
 {
-    public GameObject stroller;
-    public UnityEvent triggerEnterEvent;
+    public UnityEvent triggerEnterEvent, checkpointEvent;
     private Rigidbody rigidbodyObj;
     
     private Vector3 leftPosition;
     private Vector3 rightPosition;
     private Vector3 centerPosition;
     
-    public float speed;
-    public float height;
-    public float groundedDist;
+    public FloatData speed;
+    public FloatData checkpointDist;
+    public float jumpHeight = 100;
+    public float groundedDist = .3f;
 
     private void Awake()
     {
         GetComponent<BoxCollider>().isTrigger = false;
         rigidbodyObj = GetComponent<Rigidbody>();
+        Transform strollerTransform = transform;
     }
     
     private void Start()
     {
-        leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
-        rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
-        
+        leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
+        rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
+        speed.value = 3.5f;
+    }
+
+    private void Update()
+    {
+        float distanceToCheckpoint = Mathf.Abs(transform.position.z - checkpointDist.value);
+
+        if (distanceToCheckpoint < 0.1f)
+        {
+            checkpointEvent.Invoke();
+            Debug.Log("Checkpoint reached");
+        }
     }
 
     public void MoveLeft()
     {
-        if (stroller.transform.position.x > -1)
+        if (transform.position.x > -1)
         {
-            leftPosition.Set(stroller.transform.position.x -1, stroller.transform.position.y, stroller.transform.position.z);
-            stroller.transform.position = leftPosition;
+            leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
+            transform.position = leftPosition;
         }
     }
 
     public void MoveRight()
     {
-        if (stroller.transform.position.x < 1)
+        if (transform.position.x < 1)
         {
-            rightPosition.Set(stroller.transform.position.x +1, stroller.transform.position.y, stroller.transform.position.z);
-            stroller.transform.position = rightPosition;
+            rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
+            transform.position = rightPosition;
         }
     }
 
@@ -56,23 +67,18 @@ public class StrollerControllerBehaviour : MonoBehaviour
     {
         if (IsGrounded())
         {
-            rigidbodyObj.AddForce(0, height, 0);
+            rigidbodyObj.AddForce(0, jumpHeight, 0);
         }
     }
     
-    public void Move()
+    public void MoveForward()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
-    }
-
-    public void ChangeSpeed(float newSpeed)
-    {
-        speed = newSpeed;
+        transform.Translate(Vector3.forward * Time.deltaTime * speed.value);
     }
 
     public void ResetPosition(Vector3Data startPos)
     {
-        stroller.transform.position = startPos.value;
+        transform.position = startPos.value;
     }
 
     private bool IsGrounded()
@@ -80,7 +86,6 @@ public class StrollerControllerBehaviour : MonoBehaviour
         RaycastHit hit;
         return Physics.Raycast(transform.position, Vector3.down, out hit, groundedDist);
     }
-    
 
     public void OnTriggerEnter(Collider other)
     {
