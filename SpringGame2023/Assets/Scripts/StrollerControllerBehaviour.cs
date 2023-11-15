@@ -18,6 +18,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public FloatData speed;
     public FloatData checkpointDist;
     public float jumpHeight = 100;
+    public float diveForce = -50;
     public float groundedDist = .3f;
 
     private void Awake()
@@ -68,6 +69,14 @@ public class StrollerControllerBehaviour : MonoBehaviour
         if (IsGrounded())
         {
             rigidbodyObj.AddForce(0, jumpHeight, 0);
+        }
+    }
+
+    public void Dive()
+    {
+        if (!IsGrounded())
+        {
+            rigidbodyObj.AddForce(0, diveForce, 0);
         }
     }
     
