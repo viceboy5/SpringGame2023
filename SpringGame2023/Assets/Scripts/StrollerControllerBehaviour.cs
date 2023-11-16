@@ -15,11 +15,12 @@ public class StrollerControllerBehaviour : MonoBehaviour
     private Vector3 rightPosition;
     private Vector3 centerPosition;
     
-    public FloatData speed;
+    public FloatData speedObj;
     public FloatData checkpointDist;
     public float jumpHeight = 100;
     public float diveForce = -50;
     public float groundedDist = .3f;
+    private float playerSpeed;
 
     private void Awake()
     {
@@ -32,7 +33,8 @@ public class StrollerControllerBehaviour : MonoBehaviour
     {
         leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
         rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
-        speed.value = 3.5f;
+        speedObj.value = 3.5f;
+        playerSpeed = speedObj.value;
     }
 
     private void Update()
@@ -82,7 +84,17 @@ public class StrollerControllerBehaviour : MonoBehaviour
     
     public void MoveForward()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed.value);
+        transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed);
+    }
+
+    public void TempSpeed(float newSpeed)
+    {
+        playerSpeed = newSpeed;
+    }
+
+    public void ResetSpeed()
+    {
+        playerSpeed = speedObj.value;
     }
 
     public void ResetPosition(Vector3Data startPos)

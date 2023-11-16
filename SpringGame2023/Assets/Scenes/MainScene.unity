@@ -2454,6 +2454,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1712818390}
+        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
+        m_MethodName: TempSpeed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &721661810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3009,8 +3021,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1712818390}
         m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: ChangeSpeed
-        m_Mode: 4
+        m_MethodName: ResetSpeed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5784,8 +5796,6 @@ GameObject:
   - component: {fileID: 1712818385}
   - component: {fileID: 1712818390}
   - component: {fileID: 1712818391}
-  - component: {fileID: 1712818395}
-  - component: {fileID: 1712818392}
   - component: {fileID: 1712818396}
   - component: {fileID: 1712818394}
   - component: {fileID: 1712818393}
@@ -5926,7 +5936,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  speed: {fileID: 11400000, guid: 32fd2b97bb82b834a8cf6078291a0e54, type: 2}
+  speedObj: {fileID: 11400000, guid: 32fd2b97bb82b834a8cf6078291a0e54, type: 2}
   checkpointDist: {fileID: 11400000, guid: de79b8fcc1d490d45b30ce4bc857dc52, type: 2}
   jumpHeight: 100
   diveForce: -100
@@ -5964,34 +5974,6 @@ MonoBehaviour:
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1712818392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712818382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: 225ee11c355d2ed4c98493139b4befaa, type: 2}
-  onRaiseEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1712818390}
-        m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: ChangeSpeed
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!23 &1712818393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6042,22 +6024,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712818382}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1712818395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712818382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643971d5da730444a844a94fa3c79d56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: 26a12c19353cfcc44a3cd84ebbc15351, type: 2}
-  onRaiseEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1712818396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6076,7 +6042,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1712818390}
         m_TargetAssemblyTypeName: StrollerControllerBehaviour, Assembly-CSharp
-        m_MethodName: ChangeSpeed
+        m_MethodName: TempSpeed
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
