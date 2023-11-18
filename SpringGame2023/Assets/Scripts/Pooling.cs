@@ -1,12 +1,21 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 public class Pooling : MonoBehaviour
 {
     public Vector3Data nextLocation;
     public List<GameObject> activePool;
     public List<GameObject> inactivePool;
-    
+    public UnityEvent startEvent;
+
+    private void Start()
+    {
+        startEvent.Invoke();
+    }
+
 
     public void RandomSpawnFromPoolIncremental(float v3Adjustment)
     {
