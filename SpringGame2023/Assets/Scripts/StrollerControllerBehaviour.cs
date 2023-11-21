@@ -34,17 +34,16 @@ public class StrollerControllerBehaviour : MonoBehaviour
         leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
         rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
         speedObj.value = 3.5f;
-        playerSpeed = speedObj.value;
+        
     }
 
     private void Update()
     {
         float distanceToCheckpoint = Mathf.Abs(transform.position.z - checkpointDist.value);
-
+        playerSpeed = speedObj.value;
         if (distanceToCheckpoint < 0.1f)
         {
             checkpointEvent.Invoke();
-            Debug.Log("Checkpoint reached");
         }
     }
 
