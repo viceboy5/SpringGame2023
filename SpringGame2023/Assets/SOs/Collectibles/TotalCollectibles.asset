@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e24f62abd6350d647b0c982fb357151e, type: 3}
   m_Name: TotalCollectibles
   m_EditorClassIdentifier: 
-  value: 200
+  value: 91
