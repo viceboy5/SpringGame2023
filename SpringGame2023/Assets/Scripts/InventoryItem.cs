@@ -31,6 +31,7 @@ public class InventoryItem : ScriptableObject
         {
             useEvent.Invoke();
             own = false;
+            canPurchase = true;
             gameActionobj.RaiseAction();
         }
         else

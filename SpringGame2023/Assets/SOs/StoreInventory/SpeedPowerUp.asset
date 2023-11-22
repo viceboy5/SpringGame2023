@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   price: 100
   own: 0
-  canPurchase: 0
+  canPurchase: 1
   useEvent:
     m_PersistentCalls:
       m_Calls:
