@@ -20,6 +20,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public float jumpHeight = 100;
     public float diveForce = -50;
     public float groundedDist = .3f;
+    public float tempSpeed;
     private float playerSpeed;
 
     private void Awake()
@@ -34,7 +35,6 @@ public class StrollerControllerBehaviour : MonoBehaviour
         leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
         rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
         speedObj.value = 3.5f;
-        
     }
 
     private void Update()
@@ -88,12 +88,15 @@ public class StrollerControllerBehaviour : MonoBehaviour
 
     public void TempSpeed(float newSpeed)
     {
-        playerSpeed = newSpeed;
+        tempSpeed = speedObj.value;
+        Debug.Log(tempSpeed);
+        speedObj.value = newSpeed;
     }
 
     public void ResetSpeed()
     {
-        playerSpeed = speedObj.value;
+        speedObj.value = tempSpeed;
+        Debug.Log(tempSpeed);
     }
 
     public void ResetPosition(Vector3Data startPos)
