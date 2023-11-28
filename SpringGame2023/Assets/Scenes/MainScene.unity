@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 216296383}
   - component: {fileID: 216296382}
   m_Layer: 10
-  m_Name: StartTile1 (12)
+  m_Name: PoolTiles12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -642,7 +642,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -671,7 +671,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216296381}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &216296385
 Transform:
   m_ObjectHideFlags: 0
@@ -1129,7 +1129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1158,7 +1158,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287321940}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &307362468
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 326915751}
   - component: {fileID: 326915750}
   m_Layer: 10
-  m_Name: StartTile1 (1)
+  m_Name: PoolTiles1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1624,7 +1624,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1653,7 +1653,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326915747}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &335871447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ GameObject:
   - component: {fileID: 335871451}
   - component: {fileID: 335871450}
   m_Layer: 10
-  m_Name: StartTile1 (2)
+  m_Name: PoolTiles2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1724,7 +1724,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1753,7 +1753,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335871447}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &344939480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1935,7 +1935,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1964,7 +1964,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372155826}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &380234049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,7 +2032,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2061,7 +2061,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380234049}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &386559550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,6 +2291,7 @@ GameObject:
   - component: {fileID: 393722282}
   - component: {fileID: 393722281}
   - component: {fileID: 393722280}
+  - component: {fileID: 393722284}
   m_Layer: 6
   m_Name: GummyBearPrefab (2)
   m_TagString: Untagged
@@ -2439,6 +2440,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393722278}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &393722284
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393722278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &434673405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3337,7 +3358,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636617014}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &668863224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3351,7 +3372,7 @@ GameObject:
   - component: {fileID: 668863228}
   - component: {fileID: 668863227}
   m_Layer: 10
-  m_Name: StartTile1 (6)
+  m_Name: PoolTiles6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3407,7 +3428,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3436,7 +3457,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668863224}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &682274292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,7 +4094,7 @@ GameObject:
   - component: {fileID: 787083165}
   - component: {fileID: 787083164}
   m_Layer: 10
-  m_Name: StartTile1 (7)
+  m_Name: PoolTiles7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4130,7 +4151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4159,7 +4180,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787083161}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &806001593
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +4283,7 @@ GameObject:
   - component: {fileID: 826567681}
   - component: {fileID: 826567680}
   m_Layer: 10
-  m_Name: StartTile1 (3)
+  m_Name: PoolTiles3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4319,7 +4340,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4348,7 +4369,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826567677}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &840581056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4529,7 @@ GameObject:
   - component: {fileID: 914272258}
   - component: {fileID: 914272257}
   - component: {fileID: 914272256}
+  - component: {fileID: 914272260}
   m_Layer: 6
   m_Name: GummyBearPrefab (2)
   m_TagString: Untagged
@@ -4656,6 +4678,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914272254}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &914272260
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914272254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &930301944
 GameObject:
   m_ObjectHideFlags: 0
@@ -4669,7 +4711,7 @@ GameObject:
   - component: {fileID: 930301946}
   - component: {fileID: 930301945}
   m_Layer: 10
-  m_Name: StartTile1 (11)
+  m_Name: PoolTiles11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4708,7 +4750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4737,7 +4779,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930301944}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &930301948
 Transform:
   m_ObjectHideFlags: 0
@@ -5007,7 +5049,7 @@ GameObject:
   - component: {fileID: 981000747}
   - component: {fileID: 981000746}
   m_Layer: 10
-  m_Name: StartTile1 (8)
+  m_Name: PoolTiles8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5046,7 +5088,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5075,7 +5117,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981000745}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &981000749
 Transform:
   m_ObjectHideFlags: 0
@@ -5108,7 +5150,7 @@ GameObject:
   - component: {fileID: 986117716}
   - component: {fileID: 986117715}
   m_Layer: 10
-  m_Name: StartTile1 (9)
+  m_Name: PoolTiles9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5147,7 +5189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5176,7 +5218,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986117714}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &986117718
 Transform:
   m_ObjectHideFlags: 0
@@ -5262,7 +5304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5291,7 +5333,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003277482}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1012563599
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,7 +6371,7 @@ GameObject:
   - component: {fileID: 1248401158}
   - component: {fileID: 1248401157}
   m_Layer: 10
-  m_Name: StartTile1 (13)
+  m_Name: PoolTiles13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6386,7 +6428,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6415,7 +6457,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248401155}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1249214827
 GameObject:
   m_ObjectHideFlags: 0
@@ -6429,6 +6471,7 @@ GameObject:
   - component: {fileID: 1249214831}
   - component: {fileID: 1249214830}
   - component: {fileID: 1249214829}
+  - component: {fileID: 1249214833}
   m_Layer: 6
   m_Name: GummyBearPrefab (3)
   m_TagString: Untagged
@@ -6577,6 +6620,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249214827}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &1249214833
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249214827}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1273426638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6590,7 +6653,7 @@ GameObject:
   - component: {fileID: 1273426640}
   - component: {fileID: 1273426639}
   m_Layer: 10
-  m_Name: StartTile1 (10)
+  m_Name: PoolTiles10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6629,7 +6692,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6658,7 +6721,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273426638}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &1273426642
 Transform:
   m_ObjectHideFlags: 0
@@ -7553,7 +7616,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7582,7 +7645,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355104428}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1363386286
 GameObject:
   m_ObjectHideFlags: 0
@@ -7731,6 +7794,7 @@ GameObject:
   - component: {fileID: 1421211117}
   - component: {fileID: 1421211116}
   - component: {fileID: 1421211115}
+  - component: {fileID: 1421211119}
   m_Layer: 6
   m_Name: GummyBearPrefab (3)
   m_TagString: Untagged
@@ -7879,6 +7943,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421211113}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &1421211119
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421211113}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1431714735
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,7 +8245,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8190,7 +8274,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495224658}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1553476274
 GameObject:
   m_ObjectHideFlags: 0
@@ -8204,6 +8288,7 @@ GameObject:
   - component: {fileID: 1553476279}
   - component: {fileID: 1553476277}
   - component: {fileID: 1553476276}
+  - component: {fileID: 1553476281}
   m_Layer: 6
   m_Name: GummyBearPrefab (1)
   m_TagString: Untagged
@@ -8352,6 +8437,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553476274}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &1553476281
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553476274}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1571348702
 GameObject:
   m_ObjectHideFlags: 0
@@ -8718,7 +8823,7 @@ GameObject:
   - component: {fileID: 1711772379}
   - component: {fileID: 1711772378}
   m_Layer: 10
-  m_Name: StartTile1 (5)
+  m_Name: PoolTiles5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8775,7 +8880,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8804,7 +8909,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711772375}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1712818382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9817,6 +9922,7 @@ GameObject:
   - component: {fileID: 1824490493}
   - component: {fileID: 1824490492}
   - component: {fileID: 1824490491}
+  - component: {fileID: 1824490495}
   m_Layer: 6
   m_Name: CandyBarPrefab (1)
   m_TagString: Untagged
@@ -9966,6 +10072,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824490489}
   m_Mesh: {fileID: -4773093330899116280, guid: 6cd6b0aa7fbb3564c8a97dd0cc1b2ab3, type: 3}
+--- !u!95 &1824490495
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824490489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1826720119
 GameObject:
   m_ObjectHideFlags: 0
@@ -10033,7 +10159,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10062,7 +10188,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826720119}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &1853167624
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,6 +10569,7 @@ GameObject:
   - component: {fileID: 1932137683}
   - component: {fileID: 1932137682}
   - component: {fileID: 1932137681}
+  - component: {fileID: 1932137685}
   m_Layer: 6
   m_Name: GummyBearPrefab (4)
   m_TagString: Untagged
@@ -10591,6 +10718,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932137679}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &1932137685
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932137679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1969630418
 GameObject:
   m_ObjectHideFlags: 0
@@ -10604,7 +10751,7 @@ GameObject:
   - component: {fileID: 1969630422}
   - component: {fileID: 1969630421}
   m_Layer: 10
-  m_Name: StartTile1 (4)
+  m_Name: PoolTiles4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10662,7 +10809,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10691,7 +10838,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969630418}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!1 &2021113042
 GameObject:
   m_ObjectHideFlags: 0
@@ -10705,6 +10852,7 @@ GameObject:
   - component: {fileID: 2021113046}
   - component: {fileID: 2021113045}
   - component: {fileID: 2021113044}
+  - component: {fileID: 2021113048}
   m_Layer: 6
   m_Name: GummyBearPrefab (1)
   m_TagString: Untagged
@@ -10853,6 +11001,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021113042}
   m_Mesh: {fileID: -6691003094352873205, guid: 8a9c7be40ea89d04294abb91ea31f656, type: 3}
+--- !u!95 &2021113048
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021113042}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2021353378
 GameObject:
   m_ObjectHideFlags: 0
@@ -10866,7 +11034,7 @@ GameObject:
   - component: {fileID: 2021353380}
   - component: {fileID: 2021353379}
   m_Layer: 10
-  m_Name: StartTile
+  m_Name: PoolTiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10905,7 +11073,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cd7562a0c2ea82d4582561bbbe72cb57, type: 2}
+  - {fileID: 2100000, guid: 078792f911cd10c458a08c33ce48402d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10934,7 +11102,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021353378}
-  m_Mesh: {fileID: 4300000, guid: 5f68ce54bd05b9242a2a0e704ec69c49, type: 2}
+  m_Mesh: {fileID: -3647052958532574651, guid: 283791ce0a1c5c943981ee64b9039a08, type: 3}
 --- !u!4 &2021353382
 Transform:
   m_ObjectHideFlags: 0
@@ -11454,6 +11622,7 @@ GameObject:
   - component: {fileID: 4047144527461174140}
   - component: {fileID: 3121234200772027225}
   - component: {fileID: 2823247555044643941}
+  - component: {fileID: 4047144527461174141}
   m_Layer: 6
   m_Name: GummyBearPrefab
   m_TagString: Untagged
@@ -11643,6 +11812,7 @@ GameObject:
   - component: {fileID: 4000321683117921981}
   - component: {fileID: 6976761541834792329}
   - component: {fileID: 3382883849179473214}
+  - component: {fileID: 6976761541834792330}
   m_Layer: 6
   m_Name: CandyBarPrefab
   m_TagString: Untagged
@@ -11761,6 +11931,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &4047144527461174141
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534019097479539369}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!23 &4792271057028617029
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11832,6 +12022,7 @@ GameObject:
   - component: {fileID: 4792271057028617029}
   - component: {fileID: 2930571105116082377}
   - component: {fileID: 3772281794259169122}
+  - component: {fileID: 7306358581023172496}
   m_Layer: 6
   m_Name: GumPrefab
   m_TagString: Untagged
@@ -11902,6 +12093,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &6976761541834792330
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207410728938436456}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!33 &7306358581023172495
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11910,6 +12121,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6449556344406815376}
   m_Mesh: {fileID: -1883064487699652995, guid: 07e32a37c87cc9047bed332b12571295, type: 3}
+--- !u!95 &7306358581023172496
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449556344406815376}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f586b92d2c501364980bc255e90cd3b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!4 &7363029997150383304
 Transform:
   m_ObjectHideFlags: 0
