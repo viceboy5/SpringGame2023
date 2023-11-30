@@ -10217,18 +10217,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 1a29b264895f4a14e84592f99dbae093, type: 2}
-        m_TargetAssemblyTypeName: BoolData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   awakeEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -10349,7 +10337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controls: {fileID: 11400000, guid: 7ce3426a8af078c49a44094c02f922d0, type: 2}
-  minimumDistance: 0.02
+  minimumDistance: 0.08
   maximumTime: 1
 --- !u!114 &1712818399
 MonoBehaviour:

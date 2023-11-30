@@ -89,14 +89,12 @@ public class StrollerControllerBehaviour : MonoBehaviour
     public void TempSpeed(float newSpeed)
     {
         tempSpeed = speedObj.value;
-        Debug.Log(tempSpeed);
         speedObj.value = newSpeed;
     }
 
     public void ResetSpeed()
     {
         speedObj.value = tempSpeed;
-        Debug.Log(tempSpeed);
     }
 
     public void ResetPosition(Vector3Data startPos)
