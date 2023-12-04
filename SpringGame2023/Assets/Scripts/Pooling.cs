@@ -77,7 +77,6 @@ public class Pooling : MonoBehaviour
                 // Set the object's position
                 float zPosition = availableZPositions[i] + firstZ; // Add the starting Z position
                 activePool[i].transform.position = new Vector3(nextLocation.value.x, nextLocation.value.y, zPosition);
-                Debug.Log(zPosition);
             }
         }
     }
