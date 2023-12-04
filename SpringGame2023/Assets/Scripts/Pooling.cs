@@ -42,7 +42,7 @@ public class Pooling : MonoBehaviour
         obj.SetActive(false);
     }
     
-    public void RandomizeActivePoolPositions(float randomOffset)
+    public void RandomizeActivePoolPositionsOnZ(float randomOffset)
     {
         if (activePool.Count == 0)
         {

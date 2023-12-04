@@ -10334,7 +10334,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1431714737}
         m_TargetAssemblyTypeName: Pooling, Assembly-CSharp
-        m_MethodName: RandomizeActivePoolPositions
+        m_MethodName: RandomizeActivePoolPositionsOnZ
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
