@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 public class StrollerControllerBehaviour : MonoBehaviour
 {
-    public UnityEvent triggerEnterEvent, checkpointEvent;
+    public UnityEvent triggerEnterEvent, checkpointEvent, startEvent;
     private Rigidbody rigidbodyObj;
     
     private Vector3 leftPosition;
@@ -34,7 +34,7 @@ public class StrollerControllerBehaviour : MonoBehaviour
     {
         leftPosition.Set(transform.position.x -1, transform.position.y, transform.position.z);
         rightPosition.Set(transform.position.x +1, transform.position.y, transform.position.z);
-        speedObj.value = 3.5f;
+        startEvent.Invoke();
     }
 
     private void Update()
